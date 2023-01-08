@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "startc2": "parcel Chapter2_IgniteApp/index.html",
+    "chapter3n": "parcel Chapter3/index.html",
     "test": "jest"
   },
   "repository": {
@@ -16,11 +18,16 @@
   },
   "homepage": "https://github.com/puviyarasan88/NamasteReact#readme",
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.8.2",
     "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
